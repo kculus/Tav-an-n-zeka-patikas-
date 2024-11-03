@@ -2,7 +2,7 @@ from google.generativeai import GenerativeModel, configure
 import time
 
 # Google Gemini API anahtarınızı buraya girin
-API_KEY = "AIzaSyA9XaWBe0Ifr3mFElV5e4wQPsG5t1Aqa9M"  # API anahtarınızı buraya girin
+API_KEY = "YOUR API KEY"  # API anahtarınızı buraya girin
 configure(api_key=API_KEY)
 
 # AI kullanarak yalnızca iki hikaye başlangıcı önerisi oluşturur
