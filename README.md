@@ -76,3 +76,15 @@ Bu proje, yapay zeka destekli içerikler üretmek ve Google Generative AI API’
 
 API Anahtarlarını Gizli Tutun: API anahtarları, yalnızca projeyi geliştiren ekip veya sunucu tarafında tutulmalı, kullanıcı ile paylaşılmamalıdır. Projede de olduğu gibi, anahtarları kodun içinde doğrudan yazmaktan kaçınarak güvenli bir şekilde sakladık.
 Kullanıcı Tarafından Görülmemelidir: API anahtarları, herhangi bir istemci veya kullanıcı tarafında görünmemelidir. Bu nedenle anahtarları yalnızca sunucu tarafında çalışacak şekilde yapılandırdık. Özetle, API anahtarları kullanıcıya açık olmamalıdır. Bu proje için, anahtarların güvenliğini sağlamak adına gerekli önlemleri aldık.
+
+🌐 Projenin Localhost Üzerinde Çalıştırılması
+Bu proje, geliştirme aşamasında localhost üzerinde çalışacak şekilde yapılandırılmıştır. Localhost, uygulamanın yalnızca bilgisayarınızda çalışmasını sağlar ve güvenli bir test ortamı sunar. Çocuklar için hazırladığımız bu interaktif oyun ve hikaye platformu, geliştirme süreci boyunca localhost üzerinde test edilmiştir.
+
+Neden Localhost?
+Güvenli Geliştirme: Localhost ortamında çalışmak, uygulamayı güvenli bir şekilde test etmemize olanak tanır.
+Hızlı Erişim ve Hata Giderme: Localhost, değişiklikleri hızla test edebilmemizi ve güncellemeler üzerinde anında çalışmamızı sağlar.
+API Anahtarlarının Güvenliği: Localhost’ta çalıştırılan uygulama, API anahtarlarının güvende kalmasına yardımcı olur, çünkü anahtarlar yalnızca yerel sunucuya erişim sağlayan sunucu tarafında kalır.
+Localhost Üzerinde Çalıştırma Adımları
+Kodları ve Gereksinimleri Yükleyin: Projeyi bilgisayarınıza indirip gerekli Python ve diğer modülleri yükleyin.
+Sunucuyu Başlatın: flask run komutuyla Flask sunucusunu başlatın.
+Tarayıcıda Açın: Sunucu çalışmaya başladıktan sonra, tarayıcınızda http://localhost:5000 adresine giderek projeyi test edebilirsiniz.
